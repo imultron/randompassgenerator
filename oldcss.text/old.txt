@@ -1,0 +1,113 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header and Navigation */
+.head {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.head nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.head .li {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.head .link {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.head .link li {
+    display: inline;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.head .link li:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.center {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.center h1 {
+    margin-bottom: 20px;
+}
+
+.center label {
+    font-size: 1.1em;
+}
+
+.center input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.center input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.center button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center button:hover {
+    background-color: #218838;
+}
+
+.center input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.1em;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}

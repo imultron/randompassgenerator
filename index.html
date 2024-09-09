@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random-Pass-Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon"   href="/images/favicon_io/favicon.ico">
+    
+</head>
+<body>
+    <header class="head">
+        <nav>
+            <p class="li">
+                Welcome
+            </p>
+         <ul class="link">
+            
+            <li>
+                name
+            </li>
+            <li>
+                come
+            </li>
+            <li>
+                new
+            </li>
+            <li>
+                new one
+            </li>
+         </ul>
+        </nav>
+    </header>
+
+<div class="center">
+
+<h1>Random-Pass-Generator</h1>
+
+<br>
+<input  type="range" id="range" name="range" min="8" max="32" value="6">
+<span id="lend">6</span>
+<br>
+<div id="box1">
+<input type="checkbox" id="first" name="first" value="number">
+<label for="first">Numbers</label>
+<br>
+<input type="checkbox" id="second" name="second" value="symbol">
+<label for="second">Symbol</label>
+</div>
+<br>
+<div id="box">
+<input type="checkbox" id="third" name="third" value="uppercase">
+<label for="third">Uppercase</label>
+<br>
+<input type="checkbox" id="fourth" name="fourth" value="lowercase">
+<label for="fourth">Lowercase</label>
+</div>
+<br>
+<button id="generate">Generate</button>
+<br>
+<div>
+    <p>Your Password:</p>
+    <input type="text" id="generated-password" readonly>
+    <button id="copy-button">Copy to Clipboard</button>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<footer></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
